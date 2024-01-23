@@ -6,7 +6,7 @@
 /*   By: amusaev <amusaev@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 15:05:21 by amusaev           #+#    #+#             */
-/*   Updated: 2023/10/20 15:30:06 by amusaev          ###   ########.fr       */
+/*   Updated: 2024/01/23 17:05:22 by amusaev          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,5 +53,7 @@ char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_strtrim(char const *s1, char const *set);
 char			**ft_split(char const *s, char c);
 char			*ft_itoa(int n);
+char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void			ft_striteri(char *s, void (*f)(unsigned int, char*));
 
 #endif
